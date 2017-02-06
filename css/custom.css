@@ -120,7 +120,15 @@ iframe {
   width: 100%;
   box-shadow: 0 0 0.500rem 0 #222222;
 }
-
+.row {
+  margin-right: 0;
+}
+.container-fluid {
+  padding-right: 0;
+}
+.navbar-fixed-top {
+  padding-right: 15px;
+}
 
 /* buttons */
 .button-margin--right {
@@ -151,6 +159,16 @@ iframe {
 }
 .button-links {
   margin-top: 3.571rem; /* 50px */
+}
+.inline {
+  display: inline-block;
+}
+@media (max-width: 750px) {
+  .main-content {
+    top: 5%;
+    width: 90%;
+    left: 5%;
+  }
 }
 @media (max-width: 750px) {
   .button {
